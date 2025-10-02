@@ -1,16 +1,21 @@
 import 'package:flutter/material.dart';
+import '../model/item.dart';
 
 class ItemPage extends StatelessWidget {
-  const ItemPage({super.key});
+  final Item item;
+
+  const ItemPage({super.key, required this.item});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Item Page"),
-      ),
-      body: const Center(
-        child: Text("Ini adalah halaman Item"),
+      appBar: AppBar(title: Text(item.name)),
+      body: Center(
+        child: Text(
+          "Nama: ${item.name}\nHarga: Rp ${item.price}",
+          style: const TextStyle(fontSize: 20),
+          textAlign: TextAlign.center,
+        ),
       ),
     );
   }
