@@ -1,16 +1,45 @@
-# belanja
+# 🛒 Praktikum Flutter - Navigasi & Data Model
 
-A new Flutter project.
+## 👨‍💻 Author
+- Nama  : Afgan Galih
+- NIM   : 2341760004  
+- Kelas : SIB - 3C  
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 📌 Deskripsi
+Project ini adalah implementasi praktikum Flutter untuk memahami:
+1. **Routing & Navigasi** antar halaman.
+2. **Model Data** sederhana (`Item`).
+3. **ListView.builder** untuk menampilkan data list.
+4. **InkWell** untuk aksi saat item ditekan.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ⚙️ Fitur Utama
+- **HomePage**
+  - Menampilkan daftar barang (`Sugar`, `Salt`, `Rice`) dalam bentuk `ListView`.
+  - Setiap item ditampilkan dalam `Card` dengan nama dan harga.
+- **ItemPage**
+  - Menampilkan detail item yang dipilih dari HomePage.
+- **Navigasi**
+  - Klik pada item di HomePage akan membuka halaman detail di ItemPage.
+
+---
+
+## 🖥️ Screenshot
+
+### 1. HomePage (List Item)
+📸 Tampilan awal aplikasi menampilkan daftar barang.
+![Screenshot HomePage](images/home_page_final.png)
+
+---
+
+### 2. ItemPage (Detail Item)
+📸 Tampilan detail item setelah salah satu item ditekan.
+![Screenshot ItemPage](images/item_page_final.png)
+
+---
+
+
