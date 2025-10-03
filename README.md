@@ -40,6 +40,14 @@ Project ini adalah implementasi praktikum Flutter untuk memahami:
 📸 Tampilan detail item setelah salah satu item ditekan.
 ![Screenshot ItemPage](images/item_page_final.png)
 
+### 3. HomePage (Tugas Praktikum)
+📸 Tampilan detail item setelah salah satu item ditekan.
+![Screenshot ItemPage](images/home_page_tugasPrak.png)
+
+### 4. ItemPage (Tugas Praktikum)
+📸 Tampilan detail item setelah salah satu item ditekan.
+![Screenshot ItemPage](images/item_page_tugasPrak.png)
+
 ---
 
 
